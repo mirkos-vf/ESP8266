@@ -48,4 +48,4 @@ flash: main-0x00000.bin
 	esptool.py write_flash 0 main-0x00000.bin 0x10000 main-0x10000.bin
 
 clean:
-	$(Q) rm -rf $(FW_BASE) $(BUILD_BASE) main
+	$(Q) rm -rf $(FW_BASE) $(BUILD_BASE) main main.o
